@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body style="background-color: #e2e7e6;">
+    <header> 
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"> </div>
+            </div> 
+    
+            <div class="nav-address border">
+              <p class="add-first"> Delever to</p>
+              <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-sec"> India</p>
+              </div>
+            </div>
+    
+            <div class="nav-search">
+                <select class="search-select"> 
+                    <option>ALL</option>
+                    <input placeholder="search amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </select>
+            </div>
+    
+            <div class="nav-singin border">
+                <a href="signUP.html"><p> <span> Hello, sign in</span></p>
+                <p class="nav-sec"> Account and list</p> </a>
+    
+            </div>
+    
+            <div class="nav-return border">
+                <a href="Returns&Orders.html"><p> <span> Returns </span></p>
+                <p class="nav-sec"> & Orders</p> </a>
+    
+            </div>
+    
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                cart
+            </div>
+    
+        </div>
+    
+        <div class="panel">
+    
+            <div class="dropdown border">
+                <button onclick="myFunction()" class="dropbtn"> <i class="fa-solid fa-bars"></i> All</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <h3>Digital Content & Devices</h3><br>
+                  <a href="#home">Amazon Music <i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#about">Kindle E-readers & Books <i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#contact">Amazon Appstore <i class="fa-solid fa-chevron-right"></i></a>
+                  <hr>
+    
+                  <h3>Shop by Department</h3><br>
+                  <a href="#home">Electronics <i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#about">Computers<i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#contact">Smart Home<i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#contact">Arts & Crafts<i class="fa-solid fa-chevron-right"></i></a>
+                  <hr>
+    
+                  <h3>Programs & Features</h3><br>
+                  <a href="#home"> Gift Cards <i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#about">Shop By Interest<i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#contact">Amazon Live<i class="fa-solid fa-chevron-right"></i></a>
+                  <a href="#contact">International Shopping<i class="fa-solid fa-chevron-right"></i></a>
+                  <hr>
+    
+                  <h3>Help & Settings</h3><br>
+                  <a href="#home"> Your Account</a>
+                  <a href="#about"> <i class="fa-solid fa-globe"></i> English</a>
+                  <a href="#contact"><i class="fas fa-flag-usa"></i> United States</a>
+                  <a href="Customer Service.html">Customer Service</a>
+                  <a href="signUP.html">Sign in</a>
+                  <hr>
+                </div>
+            </div>
+    
+            <div class="panel-options">
+                <a href="#"><p> Today's Deals </p> </a>
+                <a href="Customer Service.html"> <p> Customer Service</p></a>
+                <a href="#"><p>  Registry</p> </a>
+                <a href="#"><p> Gift Cards</p> </a>
+                <a href="#"><p> Sell</p> </a>
+            </div>
+    
+           
+        </div>
+    </header>
+
+    <div class="long-box1">
+        <div class="long-content1">
+            <img src="https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg" alt="amazon-img" > 
+            <div class="content1">
+                <h2> Your Amazon Cart is empty </h2> <br>
+                <a href="#" class="text"> Shop today's deals</a> <br> <br> 
+                <a href="#" class="button1">Sign in to your account</a> 
+                <a href="#" class="button2">sign up now</a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="long-box2"> </div>
+
+    <div class="text-box2">
+        <p> The price and availability of items at Amazon.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart <a href="#">Learn more</a>
+            <br>Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+        </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="long-box">
+        <div class="long-content">
+            <h2> Top Sellers in Books for you </h2>
+         <a><div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/7123hHDbfiL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/611RGyJwlSL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/715IWKKXBJL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/71aL+uP3UiL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/51wmuP7uASL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/71nW9OPZQmL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/71V0lvgeDpL._AC_SY200_.jpg');"></div>
+            <div class="box_img" style="background-image:url('https://m.media-amazon.com/images/I/71ybO5DaAKL._AC_SY200_.jpg');"></div>
+         </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="panel-1">
+           <a href="#"> Back to Top   </a>  
+        </div>
+    
+        <div class="panle-2">
+            <ul>
+              <p style="font-weight: 900;"> Get to know us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+            </ul>
+    
+            <ul>
+                <p style="font-weight: 900;"> Make Money with Us</p>
+                <a>Make Money with Us</a>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+            </ul>
+    
+            <ul>
+                <p style="font-weight: 900;">Amazon Payment Products</p>
+                <a> Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+    
+            <ul>
+                <p style="font-weight: 900;"> Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a> Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+        </div>
+    
+        <div class="panel-3">
+            <div class="pages">
+              <a> Conditions of Use </a>
+              <a> Privacy Notice</a>
+              <a> Consumer Health Data Privacy Disclosure</a>
+              <a> Your Ads Privacy Choices</a>
+    
+              <div class="copyright">
+                <p> © 1996-2024, Amazon.com, Inc. or its affiliates</p> 
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>
